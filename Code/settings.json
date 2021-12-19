@@ -1,0 +1,140 @@
+{
+  // general settings
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.fontSize": 16,
+  "editor.fontFamily": "FiraCode Nerd Font",
+  "editor.fontLigatures": false,
+  "editor.lineHeight": 30,
+  "terminal.integrated.fontSize": 20,
+  "window.menuBarVisibility": "visible",
+  "editor.inlayHints.enabled": true,
+
+  // language specific settings
+  "[json]": {
+    "editor.tabSize": 2,
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "editor.suggest.insertMode": "replace"
+  },
+  "[javascript]": {
+    "editor.tabSize": 2
+  },
+  "[javascriptreact]": {
+    "editor.tabSize": 2
+  },
+  "[typescript]": {
+    "editor.tabSize": 2
+  },
+  "[typescriptreact]": {
+    "editor.tabSize": 2
+  },
+  "[html]": { 
+    "editor.tabSize": 2,
+    "editor.suggest.insertMode": "replace"
+  },
+  "[css]": {
+    "editor.tabSize": 2,
+    "editor.suggest.insertMode": "replace"
+  },
+
+  // vim settings
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<S-k>"],
+      "commands": ["editor.action.showHover"]
+    },
+    {
+      "before": [":", "p"],
+      "commands": [
+        "workbench.action.showCommands",
+      ]
+    },
+    {   
+      "before": ["<C-n>"],
+      "commands": [":nohl"]
+    },
+    {
+      "before": ["<leader>", "e"],
+      "commands": ["workbench.action.toggleSidebarVisibility"]
+    }, 
+  ],
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["<tab>"],
+      "commands": ["workbench.action.nextEditor"]
+    },
+    {
+      "before": ["<S-tab>"],
+      "commands": ["workbench.action.previousEditor"]
+    },
+    {
+      "before": ["<S-D>"],
+      "commands": ["workbench.action.closeActiveEditor"]
+    },   
+    {
+      "before": ["<leader>", "f"],
+      "commands": ["revealInExplorer"]
+    },
+  ],
+  "vim.visualModeKeyBindings": [
+    {
+      "before": [">"],
+      "commands": [
+        "editor.action.indentLines"
+      ]
+    },
+    {
+      "before": ["<"],
+      "commands": [
+        "editor.action.outdentLines"
+      ]
+    },
+  ],
+  "vim.leader": "<space>",
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false
+  },
+  "vim.statusBarColorControl": true,
+  "vim.statusBarColors.normal": "#dfcde2",
+  "vim.statusBarColors.insert": "#8fbcbb",
+  "vim.statusBarColors.visual": "#b48ead",
+  "vim.statusBarColors.visualline": "#b48ead",
+  "vim.statusBarColors.visualblock": "#a3be8c",
+  "vim.statusBarColors.replace": "#d08770",
+  "vim.statusBarColors.commandlineinprogress": "#007acc",
+  "vim.statusBarColors.searchinprogressmode": "#007acc",
+  "vim.statusBarColors.easymotionmode": "#4baeff",
+  "vim.statusBarColors.easymotioninputmode": "#4baeff",
+  "vim.statusBarColors.surroundinputmode": "#4baeff",
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#dfcde2",
+    "statusBar.noFolderBackground": "#dfcde2",
+    "statusBar.debuggingBackground": "#dfcde2",
+    "statusBar.foreground": "#434C5E",
+    "statusBar.debuggingForeground": "#434C5E"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "kite.showWelcomeNotificationOnStartup": false,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "explorer.confirmDelete": false,
+  "debug.console.fontSize": 16,
+  "debug.console.fontFamily": "FiraCode Nerd Font",
+  "explorer.confirmDragAndDrop": false,
+  "debug.onTaskErrors": "showErrors",
+  "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
+  "C_Cpp.updateChannel": "Insiders",
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  }
+}
