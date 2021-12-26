@@ -1,3 +1,4 @@
+Listing...
 accountsservice
 acl
 acpi-support
@@ -27,6 +28,7 @@ aptdaemon-data
 aptdaemon
 apturl-common
 apturl
+arandr
 aspell-en
 aspell
 aspnetcore-runtime-5.0
@@ -139,6 +141,7 @@ dpkg-dev
 dpkg
 dunst
 duplicity
+dzen2
 e2fsprogs
 ed
 efibootmgr
@@ -154,6 +157,7 @@ evolution-data-server
 fakeroot
 fd-find
 fdisk
+feh
 file-roller
 file
 findutils
@@ -446,11 +450,17 @@ hicolor-icon-theme
 hostname
 hplip-data
 hplip
+htop
 humanity-icon-theme
 hunspell-en-gb
 hunspell-en-us
 hyphen-en-gb
 hyphen-en-us
+i3-gaps-session
+i3-gaps-wm
+i3-gaps
+i3lock
+i3status
 ibus-data
 ibus-gtk3
 ibus-gtk
@@ -507,6 +517,8 @@ libalgorithm-diff-xs-perl
 libalgorithm-merge-perl
 libamtk-5-0
 libamtk-5-common
+libanyevent-i3-perl
+libanyevent-perl
 libao-common
 libao4
 libapparmor1
@@ -522,6 +534,7 @@ libasound2-plugins
 libasound2
 libaspell15
 libassuan0
+libasync-interrupt-perl
 libasyncns0
 libatasmart4
 libatk-adaptor
@@ -620,6 +633,9 @@ libcolord-gtk1
 libcolord2
 libcolorhug2
 libcom-err2
+libcommon-sense-perl
+libconfuse-common
+libconfuse2
 libcrack2
 libcrypt-dev
 libcrypt1
@@ -693,6 +709,8 @@ liberror-perl
 libespeak-ng1
 libestr0
 libetonyek-0.1-1
+libev-perl
+libev4
 libevdev2
 libevdocument3-4
 libevent-2.1-7
@@ -849,6 +867,7 @@ libgtksourceview-4-0
 libgtksourceview-4-common
 libgtop-2.0-11
 libgtop2-common
+libguard-perl
 libgudev-1.0-0
 libgupnp-1.2-0
 libgupnp-av-1.0-2
@@ -911,12 +930,15 @@ libjavascriptcoregtk-4.0-18
 libjbig0
 libjbig2dec0
 libjcat1
+libjpeg-progs
 libjpeg-turbo8
 libjpeg8
+libjpeg9
 libjs-jquery
 libjson-c4
 libjson-glib-1.0-0
 libjson-glib-1.0-common
+libjson-xs-perl
 libjsoncpp1
 libjuh-java
 libjurt-java
@@ -951,8 +973,6 @@ liblqr-1-0
 liblsan0
 libltdl7
 liblua5.3-0
-libluajit-5.1-2
-libluajit-5.1-common
 liblwp-mediatypes-perl
 liblwp-protocol-https-perl
 liblz4-1
@@ -983,7 +1003,6 @@ libmpc3
 libmpdec2
 libmpfr6
 libmpg123-0
-libmsgpackc2
 libmspub-0.1-1
 libmtdev1
 libmtp-common
@@ -1214,7 +1233,6 @@ libtcl8.6
 libtdb1
 libteamdctl0
 libtepl-4-0
-libtermkey1
 libtevent0
 libtext-charwidth-perl
 libtext-iconv-perl
@@ -1238,13 +1256,13 @@ libtry-tiny-perl
 libtsan0
 libtss2-esys0
 libtwolame0
+libtypes-serialiser-perl
 libu2f-udev
 libubsan1
 libuchardet0
 libudev1
 libudev1
 libudisks2-0
-libunibilium4
 libunistring2
 libunistring2
 libunity-protocol-private0
@@ -1277,7 +1295,6 @@ libvorbisfile3
 libvpx6
 libvte-2.91-0
 libvte-2.91-common
-libvterm0
 libvulkan1
 libvulkan1
 libwacom-bin
@@ -1322,6 +1339,7 @@ libxau-dev
 libxau6
 libxau6
 libxaw7
+libxcb-cursor0
 libxcb-dri2-0
 libxcb-dri2-0
 libxcb-dri3-0
@@ -1348,6 +1366,7 @@ libxcb-xfixes0
 libxcb-xfixes0
 libxcb-xinerama0
 libxcb-xkb1
+libxcb-xrm0
 libxcb-xv0
 libxcb1-dev
 libxcb1
@@ -1431,7 +1450,6 @@ lsb-release
 lshw
 lsof
 ltrace
-lua-luv
 lz4
 make
 man-db
@@ -1465,8 +1483,6 @@ nautilus
 ncurses-base
 ncurses-bin
 neofetch
-neovim-runtime
-neovim
 netbase
 netcat-openbsd
 netstandard-targeting-pack-2.1
@@ -1507,6 +1523,7 @@ perl
 pinentry-curses
 pinentry-gnome3
 pkg-config
+playerctl
 plymouth-label
 plymouth-theme-spinner
 plymouth
@@ -1570,7 +1587,6 @@ python3-fasteners
 python3-future
 python3-gi-cairo
 python3-gi
-python3-greenlet
 python3-httplib2
 python3-ibus-1.0
 python3-idna
@@ -1586,9 +1602,7 @@ python3-louis
 python3-macaroonbakery
 python3-minimal
 python3-monotonic
-python3-msgpack
 python3-nacl
-python3-neovim
 python3-oauthlib
 python3-olefile
 python3-paramiko
@@ -1601,7 +1615,6 @@ python3-protobuf
 python3-ptyprocess
 python3-pyatspi
 python3-pymacaroons
-python3-pynvim
 python3-renderpm
 python3-reportlab-accel
 python3-reportlab
@@ -1688,6 +1701,7 @@ steam-installer
 steam
 stow
 strace
+suckless-tools
 sudo
 switcheroo-control
 syslinux-common
@@ -1835,6 +1849,7 @@ yaru-theme-icon
 yaru-theme-sound
 yelp-xsl
 yelp
+yudit-common
 zenity-common
 zenity
 zip
